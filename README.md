@@ -1,6 +1,4 @@
-# README.md
-
-## 1. Gramática usada (subconjunto de C)
+## 1. Gramática usada
 Se utiliza una gramática reducida del lenguaje C, suficiente para manejar:
 - Funciones simples.
 - Declaraciones de variables.
