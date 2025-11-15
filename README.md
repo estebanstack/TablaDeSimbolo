@@ -240,5 +240,4 @@ Este proyecto incluye:
 - Un **generador de código de tres direcciones** basado en un AST decorado.
 - Un ejemplo completo que incluye declaraciones, expresiones mixtas y conversión de tipos.
 
-Este README.md sirve como informe, guía de implementación y sustento teórico del trabajo.
 
