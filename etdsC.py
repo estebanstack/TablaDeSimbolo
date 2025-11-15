@@ -68,7 +68,7 @@ class NumNode:
 class VarNode:
     def __init__(self, name):
         self.name = name
-        self.tipo = None  # asumiremos double
+        self.tipo = None 
 
 class BinOpNode:
     def __init__(self, op, left, right):
