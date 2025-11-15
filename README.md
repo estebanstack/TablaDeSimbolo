@@ -214,22 +214,9 @@ Stmt → id '=' Exp;
 
 ---
 
-## 6. Ejemplo completo de TAC generado
-Para la expresión:
-```
-a = 2.3 + 3*4.5 - 7.2*(3*4.5);
-```
-El TAC producido es:
-```
-ITOR 3 t1
-MULR t1 4.5 t2
-ADDR 2.3 t2 t3
-ITOR 3 t4
-MULR t4 4.5 t5
-MULR 7.2 t5 t6
-SUBR t3 t6 t7
-STOR t7 a
-```
+## 6. Ejemplo completo de TAC generado (usando etdsC.py)
+
+<img width="436" height="243" alt="image" src="https://github.com/user-attachments/assets/f715cd57-9212-4121-8ee3-1d60491d675d" />
 
 ---
 
